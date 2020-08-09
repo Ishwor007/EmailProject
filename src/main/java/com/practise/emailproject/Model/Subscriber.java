@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 public class Subscriber {
-	/*@Id
+	@Id
 	@GeneratedValue
 	private Integer subscriber_id;
    private String subscriber_name;
@@ -29,5 +29,5 @@ public class Subscriber {
 	public void setSubscriber_email(String subscriber_email) {
 		this.subscriber_email = subscriber_email;
 	}
-	*/
+	
 }
